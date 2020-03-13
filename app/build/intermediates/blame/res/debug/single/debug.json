@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-xhdpi\\icon_blood_pressure.png"
     },
     {
-        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_serial.png.flat",
-        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-mdpi\\icon_serial.png"
-    },
-    {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_heart_rate.png.flat",
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-mdpi\\icon_heart_rate.png"
+    },
+    {
+        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_serial.png.flat",
+        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-mdpi\\icon_serial.png"
     },
     {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\menu_home.xml.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\layout\\activity_blood_pressure.xml"
     },
     {
-        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\menu_ota_menu.xml.flat",
-        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\menu\\ota_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_heart_rate.xml.flat",
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\layout\\activity_heart_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\menu_ota_menu.xml.flat",
+        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\menu\\ota_menu.xml"
     },
     {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_thermometer.xml.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\layout\\activity_serial_preferences.xml"
     },
     {
-        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_common_connected_device_details.xml.flat",
-        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\layout\\common_connected_device_details.xml"
-    },
-    {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_heart_rate.png.flat",
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-hdpi\\icon_heart_rate.png"
+    },
+    {
+        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_common_connected_device_details.xml.flat",
+        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\layout\\common_connected_device_details.xml"
     },
     {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_batch.xml.flat",
@@ -172,12 +172,12 @@
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-mdpi\\icon_temp.png"
     },
     {
-        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\menu_heart_rate.xml.flat",
-        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\menu\\heart_rate.xml"
-    },
-    {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\menu_thermometer.xml.flat",
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\menu\\thermometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\menu_heart_rate.xml.flat",
+        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\menu\\heart_rate.xml"
     },
     {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_temp.png.flat",
@@ -204,12 +204,12 @@
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\menu\\proximity.xml"
     },
     {
-        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_serial.png.flat",
-        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-hdpi\\icon_serial.png"
-    },
-    {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ota.xml.flat",
         "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\layout\\activity_ota.xml"
+    },
+    {
+        "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_serial.png.flat",
+        "source": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\src\\main\\res\\drawable-hdpi\\icon_serial.png"
     },
     {
         "merged": "C:\\Users\\Angus\\AndroidStudioProjects\\ITRI-EMG-project\\laird-based\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_scanned_devices.xml.flat",

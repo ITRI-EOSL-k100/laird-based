@@ -13,7 +13,7 @@ This heading must NOT be removed from the file.
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="29" />
 
     <uses-feature
         android:name="android.hardware.bluetooth_le"
@@ -25,6 +25,7 @@ This heading must NOT be removed from the file.
 
     <application
         android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"

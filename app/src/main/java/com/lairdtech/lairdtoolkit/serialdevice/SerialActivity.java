@@ -11,6 +11,7 @@ package com.lairdtech.lairdtoolkit.serialdevice;
 import android.bluetooth.BluetoothGatt;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -55,6 +56,8 @@ public class SerialActivity extends BaseActivity implements SerialManagerUiCallb
 	private LineChart mChart;
 	private Thread thread;
 	private boolean plotData = true;
+	private String TAG = SerialActivity.class.getSimpleName();
+	String s0 = "";
 
 //	private EditText imeiInput;
 //	private EditText zipcardInput;
@@ -109,7 +112,7 @@ public class SerialActivity extends BaseActivity implements SerialManagerUiCallb
 
 		YAxis leftAxis = mChart.getAxisLeft();
 		leftAxis.setTextColor(Color.WHITE);
-		leftAxis.setAxisMaximum(3300f);
+		leftAxis.setAxisMaximum(10000f);
 		leftAxis.setAxisMinimum(0f);
 		leftAxis.setDrawGridLines(true);
 
@@ -134,7 +137,7 @@ public class SerialActivity extends BaseActivity implements SerialManagerUiCallb
 				while (true){
 					plotData = true;
 					try{
-						Thread.sleep(500);
+						Thread.sleep(0);
 
 					}catch (InterruptedException e){
 						e.printStackTrace();
@@ -147,7 +150,7 @@ public class SerialActivity extends BaseActivity implements SerialManagerUiCallb
 
 	}
 
-	private void addEntry1(final String dataReceived){
+	private void addEntry1(String dataReceived){
 		LineData data = mChart.getData();
 		if(data != null){
 			LineDataSet set  = (LineDataSet) data.getDataSetByIndex(0);
@@ -155,24 +158,20 @@ public class SerialActivity extends BaseActivity implements SerialManagerUiCallb
 				set = createSet();
 				data.addDataSet(set);
 			}
-//			Toast.makeText(this,dataReceived,Toast.LENGTH_LONG).show();
 				///string translate  1/n2/n3/n4/n5/n
+            dataReceived = s0 + dataReceived;
+			Log.d(TAG, "dataReceived: " + dataReceived);
 			StringTokenizer st  = new StringTokenizer(dataReceived,"\n");
-
             while (st.hasMoreTokens() ){
 //            			確認字串長度
-				String s = st.nextToken();
-				decoder d = new decoder();
-//				System.out.println(s.length())
-				if (s.length() ==5)
-
-					data.addEntry(new Entry(set.getEntryCount(),d.decoderData(s)),0);
+                String s = st.nextToken();
+                if (s.length() ==5){
+                    decoder d = new decoder(s);
+					data.addEntry(new Entry(set.getEntryCount(),d.decoderData()),0);
+                }else if(s.length() < 5){
+				s0 = s;
+				}
             }
-
-
-
-
-//			data.addEntry(new Entry(set.getEntryCount(),Integer.parseInt(dataReceived)),0);
 			data.notifyDataChanged();
 
 			mChart.notifyDataSetChanged();
@@ -445,27 +444,14 @@ public class SerialActivity extends BaseActivity implements SerialManagerUiCallb
 		runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-//				mValueVspOutTv.append(dataReceived);
+				Log.d(TAG, "onUiReceiveData: " + dataReceived);
 				addEntry1(dataReceived);
-//				mValueRxCounterTv.setText("" + mSerialManager.getVSPDevice().getRxCounter());
-//				mScrollViewVspOut.smoothScrollTo(0, mValueVspOutTv.getBottom());
 			}
 		});
 	}
 
 	@Override
 	public void onUiEMGChange(final String dataReceived) {
-
-//		runOnUiThread(new Runnable() {
-//			@Override
-//			public void run() {
-////				mValueHeartRate.setText(mCharHrMeasurement + " bpm");
-//				while(plotData == true){
-//					addEntry1(dataReceived);
-////					plotData = false;
-//				}
-//			}
-//		});
 	}
 
 	@Override
